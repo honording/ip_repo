@@ -8,3 +8,12 @@ Decode video data from OV7670 and package into AXI4 Stream protocol. Pixels come
 | Address Offset | Access | Default |                                           Descriptions                                          |
 |:--------------:|:------:|:-------:|-----------------------------------------------------------------------------------------------:|
 |       00h      |    W   |  0000h  | Run. The IP will begin to capture and stream the first frame from OV7670 after it receives 1h.  |
+
+### stream_to_vga
+Display video stream from AXI4 Stream bus to VGA display. 
+#### Port Descriptions
+| Port Name | Direction | Descriptions                            |
+|:---------:|:---------:|-----------------------------------------|
+|   fsync   |     O     | Cascade to VDMA to request a new frame. |
+|  hcounter |     O     | Output current horizontal counter.      |
+|  vcounter |     O     | Output current vertical counter.        |
