@@ -20,3 +20,6 @@ Display video stream from AXI4 Stream bus to VGA display.
 
 ### ov7670_controller
 Configure the OV7670 to work properly.
+
+### axis_source
+Works as the AXIS source to generate AXIS package with `TLAST`. 
