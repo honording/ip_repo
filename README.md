@@ -23,3 +23,6 @@ Configure the OV7670 to work properly.
 
 ### axis_source
 Works as the AXIS source to generate AXIS package with `TLAST`. 
+
+### ov7670_invert
+1-bit Inverter.
